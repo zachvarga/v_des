@@ -143,7 +143,7 @@ nav a:hover::after {
 }
 .site_bg::before {
 	content: "";
-	background-image: url(/Users/Zach/Documents/GitHub/varga_design/assets/bg_texture.gif);
+	background-image: url(/Users/Zach/Documents/GitHub/v_des/resources/bg_texture.gif);
 	background-size: cover;
 	position: fixed;
 	top: 0px;
