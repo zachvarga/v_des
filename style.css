@@ -138,6 +138,12 @@ nav a:hover::after {
 	margin-top: 15em;
 	text-align: center;
 }
+
+.home-mast h2 {
+	max-width: 30em;
+	margin: auto;
+}
+
 .site_bg {
 	justify-content: center;
 }
