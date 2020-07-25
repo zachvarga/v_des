@@ -26,6 +26,7 @@ h2 {
 	font-size: 1.5em;
 	font-weight: 500;
 	color: #bfbbd5;
+	opacity: .8;
 	position: relative;
 }
 h3 {
@@ -226,7 +227,7 @@ h2 {
 
 @media (max-width: 425px) {
 	h1 {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	h2 {
 		font-size: 1em;
