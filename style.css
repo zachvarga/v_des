@@ -150,7 +150,7 @@ nav a:hover::after {
 }
 .site_bg::before {
 	content: "";
-	background-image: url(/v_des/resources/bg_texture.gif);
+	background-image: url(resources/bg_texture.gif);
 	background-size: cover;
 	position: fixed;
 	top: 0px;
