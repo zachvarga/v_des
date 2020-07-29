@@ -68,7 +68,7 @@ img, svg, figure, picture, object, embed, iframe, video {
 
 /* Header & Nav Styling  */
 
-nav {
+#header,nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -78,18 +78,18 @@ nav {
 	padding: 10px 0;
 	margin: 0 1em;
 }
-.site-header__logo {
+#header,.site-header__logo {
 	max-width: 50px;
 	max-height: 100%;
 	z-index: 999;
 }
-.nav-links {
+#header,.nav-links {
 	justify-content: space-around;
   display: flex;
 
 }
 
-.nav-links a {
+#header,.nav-links a {
 	letter-spacing: 3px;
 	color: #f9f9f9;
 	margin-left: 30px;
@@ -98,12 +98,12 @@ nav {
 	display: inline-block;
 }
 
-.nav-links a:hover {
+#header,.nav-links a:hover {
 	color: #4FDBB9;
 	opacity: 1;
 }
 
-nav a::after {
+#header,nav a::after {
 	content: '';
 	display: block;
 	height: 2px;
@@ -114,11 +114,11 @@ nav a::after {
 	padding-top: 3px;
 	transition: all ease-in-out 300ms;
 }
-nav a:hover::after {
+#header,nav a:hover::after {
 	width: 100%;
 }
 
-.burger-nav {
+#header,.burger-nav {
 
 }
 
