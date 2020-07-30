@@ -118,7 +118,7 @@ nav a:hover::after {
 	width: 100%;
 }
 
-#header,.burger-nav {
+#header, .burger-nav {
 	background: transparent;
 }
 
