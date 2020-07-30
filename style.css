@@ -86,7 +86,7 @@ nav {
 .nav-links {
 	justify-content: space-around;
   display: flex;
-
+	z-index: 100;
 }
 
 .nav-links a {
@@ -96,6 +96,7 @@ nav {
 	opacity: .75;
 	position: relative;
 	display: inline-block;
+	z-index: 100;
 }
 
 .nav-links a:hover {
