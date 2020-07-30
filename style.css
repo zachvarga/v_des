@@ -89,7 +89,7 @@ nav {
 
 }
 
-#header,.nav-links a {
+.nav-links a {
 	letter-spacing: 3px;
 	color: #f9f9f9;
 	margin-left: 30px;
@@ -98,12 +98,12 @@ nav {
 	display: inline-block;
 }
 
-#header,.nav-links a:hover {
+.nav-links a:hover {
 	color: #4FDBB9;
 	opacity: 1;
 }
 
-#header,nav a::after {
+nav a::after {
 	content: '';
 	display: block;
 	height: 2px;
@@ -114,11 +114,11 @@ nav {
 	padding-top: 3px;
 	transition: all ease-in-out 300ms;
 }
-#header,nav a:hover::after {
+nav a:hover::after {
 	width: 100%;
 }
 
-#header,.burger-nav {
+.burger-nav {
 
 }
 
