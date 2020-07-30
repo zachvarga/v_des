@@ -68,7 +68,7 @@ img, svg, figure, picture, object, embed, iframe, video {
 
 /* Header & Nav Styling  */
 
-#header,nav {
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -78,12 +78,12 @@ img, svg, figure, picture, object, embed, iframe, video {
 	padding: 10px 0;
 	margin: 0 1em;
 }
-#header,.site-header__logo {
+.site-header__logo {
 	max-width: 50px;
 	max-height: 100%;
 	z-index: 999;
 }
-#header,.nav-links {
+.nav-links {
 	justify-content: space-around;
   display: flex;
 
