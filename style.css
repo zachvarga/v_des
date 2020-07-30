@@ -118,8 +118,8 @@ nav a:hover::after {
 	width: 100%;
 }
 
-.burger-nav {
-
+#header,.burger-nav {
+	background: transparent;
 }
 
 /* Mast styling */
