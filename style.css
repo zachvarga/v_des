@@ -172,6 +172,7 @@ nav a:hover::after {
 	margin-top: -20px;
 	max-height: 80vh;
 	max-width: 70vw;
+	position: relative;
 	z-index: 5;
 	text-align: center;
 }
