@@ -225,12 +225,6 @@ h1 {
 h2 {
 	font-size: 1.5em;
 }
-h3 {
-	font-size: 1.25em;
-}
-p {
-	font-size: 1em;
-}
 }
 
 @media (max-width: 425px) {
@@ -239,12 +233,6 @@ p {
 	}
 	h2 {
 		font-size: 1.25em;
-	}
-	h3 {
-		font-size: 1em;
-	}
-	p {
-		font-size: .75em;
 	}
 	.home-mast {
 		margin: 5em auto
@@ -257,12 +245,7 @@ p {
 	h2 {
 		font-size: 1.5em;
 	}
-	h3 {
-		font-size: 1em;
-	}
-	p {
-		font-size: .75em;
-	}
+
 	.home-mast {
 		margin: 7em auto;
 	}
