@@ -162,6 +162,17 @@ nav a:hover::after {
 	opacity: 0.5;
 }
 
+button.mast__cta {
+	content: "";
+	max-width: 5em;
+	height: 2em;
+	background-color: rgba(79, 219, 185, .8);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.75em;
+	font-weight: 400;
+
+}
+
 /* Below the fold */
 
 .below_fold {
