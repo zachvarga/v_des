@@ -162,7 +162,7 @@ nav a:hover::after {
 	opacity: 0.5;
 }
 
-button.mast__cta {
+button.btn.btn-outline-primary {
 	height: 2em;
 	padding: 10px;
 
@@ -183,7 +183,7 @@ button.mast__cta {
 	transition: all ease-in-out 300ms;
 }
 
-button.mast__cta:hover {
+button.btn.btn-outline-primary {
 	background-color: rgba(79, 219, 185, .8);
 	color: #fff;
 }
