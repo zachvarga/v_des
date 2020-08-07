@@ -175,7 +175,7 @@ button.btn.btn-outline-primary {
 
 	text-align: center;
 	justify-content: center;
-	z-index: 99;
+	z-index: 1000;
 
 	background-color: #fff;
 	color: rgba(79, 219, 185, .8);
