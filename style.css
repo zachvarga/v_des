@@ -162,7 +162,7 @@ nav a:hover::after {
 	opacity: 0.5;
 }
 
-button.btn.btn-outline-primary {
+button.mast__cta {
 	height: 2em;
 	padding: 10px;
 
@@ -175,7 +175,7 @@ button.btn.btn-outline-primary {
 
 	text-align: center;
 	justify-content: center;
-	z-index: 1000;
+	z-index: 99;
 
 	background-color: #fff;
 	color: rgba(79, 219, 185, .8);
@@ -183,7 +183,7 @@ button.btn.btn-outline-primary {
 	transition: all ease-in-out 300ms;
 }
 
-button.btn.btn-outline-primary {
+button.mast__cta:hover {
 	background-color: rgba(79, 219, 185, .8);
 	color: #fff;
 }
