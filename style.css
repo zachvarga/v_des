@@ -170,12 +170,12 @@ button.mast__cta {
 	border: 0px;
 
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.75em;
+	font-size: 1em;
 	font-weight: 400;
 
 	text-align: center;
 	justify-content: center;
-	z-index: 99;
+	z-index: 800;
 
 	background-color: #fff;
 	color: rgba(79, 219, 185, .8);
