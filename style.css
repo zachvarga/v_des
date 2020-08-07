@@ -163,17 +163,29 @@ nav a:hover::after {
 }
 
 button.mast__cta {
-	content: "";
-	max-width: 5em;
 	height: 2em;
-	background-color: rgba(79, 219, 185, .8);
+	padding: 10px;
+
+	border-radius: 4px;
+	border: 0px;
+
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.75em;
 	font-weight: 400;
+
 	text-align: center;
 	justify-content: center;
-	
+	z-index: 99;
 
+	background-color: #fff;
+	color: rgba(79, 219, 185, .8);
+
+	transition: all ease-in-out 300ms;
+}
+
+button.mast__cta:hover {
+	background-color: rgba(79, 219, 185, .8);
+	color: #fff;
 }
 
 /* Below the fold */
