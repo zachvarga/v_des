@@ -163,6 +163,7 @@ nav a:hover::after {
 }
 
 button.mast__cta {
+	margin-top: 2em;
 	padding: 10px;
 
 	border-radius: 4px;
