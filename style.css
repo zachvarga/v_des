@@ -176,11 +176,13 @@ button.mast__cta {
 	text-align: center;
 	justify-content: center;
 	z-index: 800;
+	position: relative;
 
 	background-color: #fff;
 	color: rgba(79, 219, 185, .8);
 
 	transition: all ease-in-out 300ms;
+	cursor: pointer;
 }
 
 button.mast__cta:hover {
