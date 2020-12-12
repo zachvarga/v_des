@@ -178,7 +178,7 @@ button.mast__cta {
 	z-index: 800;
 	position: relative;
 
-	background-color: #fff;
+	background-color: #f2f2f2;
 	color: rgba(79, 219, 185, .8);
 
 	transition: all ease-in-out 300ms;
