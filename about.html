@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <!-- Title and Meta-->
-<title>About Me</title>
+<title>Varga Design</title>
 <meta name="author" content="Zach Varga">
 <meta name="description" content="I have a knack for creating.">
 <!-- Mobile -->
@@ -12,46 +12,23 @@
 <link rel="stylesheet" href="style.css" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
-<link href="/Users/Zach/Documents/GitHub/v_des/assets/TILTEDPALMS.otf" rel="stylesheet">
-<link href="/Users/Zach/Documents/GitHub/v_des/assets/EurostileBold.ttf" rel="stylesheet">
+<link href="resources/TILTEDPALMS.otf" rel="stylesheet">
+<link href="resources/EurostileBold.ttf" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+<!-- Js Includes for Header & Footer -->
+<script>
+$(function(){
+  $("#header").load("header.html");
+  $("#content").load("about_content.html");
+  $("#footer").load("footer.html");
+});
+</script>
+</head>
+<!-- Begin HTML Page -->
 <body>
-  <nav id="header">
-      <div class="site-header__logo">
-        <img class="logo-img" src="/Users/Zach/Documents/GitHub/v_des/resources/logo.png" onclick="window.location.href='index.html'"/>
-      </div>
-      <ul class="nav-links">
-        <li>
-          <a href="#">work</a>
-        </li>
-        <li>
-          <a href="#">about</a>
-        </li>
-        <li>
-          <a href="#">contact</a>
-        </li>
-      </ul>
-      <div class="burger-nav">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-  </nav>
+  <div id="header"></div>
+  <div id="content"></div>
 
-<div class="site_bg">
-  <div class="home-mast">
-    <h1>about me</h1>
-    <h2>I’m a digital Swiss Army knife. I do web development, UX/UI, graphic design, illustration, iconography, font design, and more.</h2>
-  </div>
-</div>
-<div class="below_fold">
-  <div class="brief_intro">
-    <h3>Hey there! I'm Zach Varga. Thanks for visiting my site. I love dad-jokes and coffee, but most of all, <span id="h2-emphasize">I love creating things</span>.
-      <br />
-    </h3>
-  </div>
-</div>
 </body>
-
 </html>
