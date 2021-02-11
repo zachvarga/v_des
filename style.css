@@ -231,6 +231,18 @@ button.mast__cta:hover {
   }
 }
 
+/* Interactive Word css */
+
+.descriptive_words_interactive {
+  padding: 0 10%;
+  background-color: transparent;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  line-height: 100vh;
+  white-space: nowrap;
+}
+
 /* Media Queries */
 
 @media (min-width: 1024px) {
