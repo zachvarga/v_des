@@ -257,7 +257,18 @@ button.mast__cta:hover {
 	text-align: left;
 	top: 5em;
 }
-
+.below_fold_contact {
+	justify-content: center;
+	vertical-align: middle;
+	align-items: center;
+	align-content: center;
+	margin: auto;
+	max-width: 83vw;
+	position: relative;
+	z-index: 5;
+	text-align: left;
+	top: 5em;
+}
 .brief_intro {
 	padding-bottom: 2em;
 	font-size: 1.75em;
@@ -313,6 +324,23 @@ button.mast__cta:hover {
   white-space: nowrap;
 }
 
+.social-icons {
+  text-align: left;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:30px;
+  margin-right: 20px;
+}
+
 /* Media Queries */
 
 @media (min-width: 1024px) {
@@ -325,6 +353,10 @@ button.mast__cta:hover {
   background-size: 75em;
 }
 .below_fold {
+	height: 50vh;
+  width: 100vw;
+}
+.below_fold_contact {
 	height: 50vh;
   width: 100vw;
 }
@@ -367,6 +399,12 @@ h2 {
 	}
 	.below_fold {
 		margin-top: 23em;
+		max-width: 98vw;
+		top: 0;
+		margin-bottom: 5em;
+	}
+	.below_fold_contact {
+		margin-top: 5em;
 		max-width: 98vw;
 		top: 0;
 		margin-bottom: 5em;
