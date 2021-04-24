@@ -33,9 +33,9 @@ async function init () {
     await node.type('a developer')
     await sleep(2000)
     await node.delete('a developer')
-    await node.type('a designer')
+    await node.type('a ud rogue')
     await sleep(2000)
-    await node.delete('a designer')
+    await node.delete('a ud rogue')
   }
 }
 
